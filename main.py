@@ -24,7 +24,7 @@ def main():
     if result:
         # User chose to download the promoted game
         webbrowser.open(config['target_game']['download_page'])
-        messagebox.showinfo("提示", "感谢您的选择！暗区突围是公平竞技的硬核射击游戏，拒绝外挂，享受纯粹的战斗。")
+        messagebox.showinfo("提示", "感谢您的选择！但是拒绝外挂，请享受纯粹的战斗。")
     else:
         # User insists on using cheats
         messagebox.showwarning("风险提示", "使用外挂极易导致账号永久封禁，并且破坏其他玩家的体验。请三思！")
