@@ -123,7 +123,7 @@
 
 4. **运行主程序**：
    ```bash
-   python main.py
+   sudo python main.py
    ```
 
 5. **按弹窗提示操作**：  
