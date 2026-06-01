@@ -4,6 +4,7 @@ from .preprocess import Preprocessor
 from .postprocess import Postprocessor
 from .utils import nms, xywh2xyxy, xyxy2xywh, scale_coords
 
+
 __all__ = [
     "BaseModel",
     "Detector",

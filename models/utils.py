@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def xywh2xyxy(boxes: np.ndarray) -> np.ndarray:
     """[x, y, w, h] -> [x1, y1, x2, y2]"""
     out = np.copy(boxes)

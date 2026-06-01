@@ -4,7 +4,7 @@ import numpy as np
 
 
 class BaseModel(ABC):
-    """所有模型的基类，定义通用接口。"""
+    """所有模型的基类，定义通用接口"""
 
     def __init__(self, weights_path: str = "", device: str = "cpu", conf_thres: float = 0.5):
         self.weights_path = Path(weights_path) if weights_path else None

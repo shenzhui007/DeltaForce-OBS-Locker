@@ -4,7 +4,7 @@ from .utils import xywh2xyxy, scale_coords, nms
 
 
 class Postprocessor:
-    """模型输出结果的后处理：坐标转换、置信度过滤、NMS。"""
+    """模型输出结果的后处理：坐标转换、置信度过滤、NMS"""
 
     def __init__(self, conf_thres: float = 0.5, iou_thres: float = 0.45,
                  max_det: int = 100, class_names: List[str] = None):

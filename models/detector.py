@@ -7,7 +7,7 @@ from .postprocess import Postprocessor
 
 
 class Detector(BaseModel):
-    """目标检测 / 骨骼识别模型：加载、推理、后处理一体化。"""
+    """目标检测 / 骨骼识别模型：加载、推理、后处理一体化"""
 
     def __init__(self, weights_path: str = "", device: str = "cpu",
                  conf_thres: float = 0.5, iou_thres: float = 0.45,

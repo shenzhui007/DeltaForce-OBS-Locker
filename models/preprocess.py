@@ -3,7 +3,7 @@ import numpy as np
 
 
 class Preprocessor:
-    """输入图像的预处理：缩放、归一化、格式转换。"""
+    """输入图像的预处理：缩放、归一化、格式转换"""
 
     def __init__(self, input_size: Tuple[int, int] = (640, 640), mean=(0.485, 0.456, 0.406),
                  std=(0.229, 0.224, 0.225), bgr_to_rgb: bool = True):
