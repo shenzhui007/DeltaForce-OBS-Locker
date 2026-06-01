@@ -60,8 +60,8 @@ class FakeOBSPluginGUI:
         )
         if result:
             webbrowser.open(self.config['target_game']['download_page'])
-            messagebox.showinfo("提示", "暗区突围欢迎您！拒绝外挂，健康游戏。")
-            self.status.config(text="已重定向至暗区突围官网")
+            messagebox.showinfo("提示", "拒绝外挂，健康游戏。")
+            self.status.config(text="已重定向至官网")
         else:
             messagebox.showwarning("风险提示", "外挂使用者将被封号，请立即卸载本插件。")
             self.status.config(text="警告：外挂使用风险自负")
