@@ -32,3 +32,9 @@ tomli==2.4.0
 tornado==6.5.5
 tzdata==2026.2
 wheel==0.46.3
+
+# YOLO 相关依赖
+ultralytics>=8.2.64
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.1.1
