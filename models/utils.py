@@ -9,7 +9,6 @@ def xywh2xyxy(boxes: np.ndarray) -> np.ndarray:
     out[..., 3] = boxes[..., 1] + boxes[..., 3] / 2
     return out
 
-
 def xyxy2xywh(boxes: np.ndarray) -> np.ndarray:
     """[x1, y1, x2, y2] -> [x, y, w, h]"""
     out = np.copy(boxes)
