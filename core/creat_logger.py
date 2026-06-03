@@ -191,22 +191,4 @@ def create_hourly_logger(name: str) -> logging.Logger:
     return get_logger(name, when="H", backup_count=24)
 
 
-# ---------------------------------------------------------------------------
-# ---------------------------------------------------------------------------
-if __name__ == "__main__":
-    ensure_log_dir("logs")
-    print(f"✅ 日志目录已就绪: {Path('logs').resolve()}")
 
-    logger = get_logger("demo")
-
-    logger.debug("这是一条 DEBUG 日志")
-    logger.info("这是一条 INFO 日志")
-    logger.warning("这是一条 WARNING 日志")
-    logger.error("这是一条 ERROR 日志")
-
-    try:
-        1 / 0
-    except ZeroDivisionError:
-        logger.exception("捕获到异常")
-
-    print("✅ 日志写入测试完成，请检查 logs/ 目录")
