@@ -176,7 +176,7 @@ def get_logger(
             )
             _handlers_cache[cache_key] = handler
         logger.addHandler(_handlers_cache[cache_key])
-        logger.propagate = False  # 避免重复输出到 root handler
+        logger.propagate = False 
 
     return logger
 
