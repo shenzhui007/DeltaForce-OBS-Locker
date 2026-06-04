@@ -204,8 +204,7 @@ DeltaForce-OBS-Locker/
 > **🚨 本项目唯一的合法使用场景是：本地学习、教学演示、反作弊技术研究。**  
 > **严禁在任何真实游戏对局中使用本程序！** 使用类似技术可能违反《三角洲行动》用户协议，导致账号永久封禁，甚至承担法律责任。  
 > **我们提供本代码的目的，是帮助你通过一个有趣的实际案例，掌握 Python 编程、环境配置、图像识别和模拟输入等技能，而不是教你作弊。**  
-> 
-> 如果你真的热爱射击游戏，请体验公平竞技的乐趣 —— 比如 **《暗区突围》**，一款无外挂、真硬核的硬核射击游戏。
+> 6L+Z5Liq6aG555uu55qE5pys6LSo5YW25a6e5piv5Y+N5L2c5byK6aG555uu77yM6K+l6aG555uu5a6e6ZmF6L+Q6KGM5ZCO5Lya5biu5L2g5LiL6L2944CK5pqX5Yy656qB5Zu044CL6L+Z5Liq5ri45oiP5bm25LiU5o+Q6YaS5L2g5Y2D5LiH5LiN6KaB5bCd6K+V5L2c5byK77yB5LiO5YW26L+Z5qC36LS55bC95b+D5oCd5Zyw56C05Z2P5ri45oiP55qE5YWs5bmz5oCn6L+Y5LiN5aaC6Lef5oiR5LiA6LW35a2m5LmgcHl0aG9u5oqA6IO95ZKMZ2l0aHVi55qE5Z+65pys55+l6K+G5ZGi
 
 ---
 
