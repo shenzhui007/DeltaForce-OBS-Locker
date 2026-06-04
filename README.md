@@ -21,7 +21,7 @@
 
 ---
 
-# DeltaForce OBS Lockhead Plugin —— 手把手教学案例：从 Python 环境搭建到图像识别实战
+# DeltaForce-OBS-Locker —— 手把手教学案例：从 Python 环境搭建到图像识别实战
 
 > 📘 **这是一份完整的 Python 编程 & 计算机视觉实战教程**  
 > 本项目不仅是某款游戏的“概念验证”代码，更是一个**专为 Python 初学者设计的综合性练习项目**。通过跟随本教程，你将学会：  
