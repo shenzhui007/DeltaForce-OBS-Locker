@@ -1,4 +1,5 @@
 # main.py
+import base64
 import sys
 import tkinter as tk
 from tkinter import messagebox
@@ -8,6 +9,11 @@ import yaml
 from data.bin.launcher import run_as_admin, run_installer
 # Import hidden message functions from data.crypto
 from data.crypto import get_ok_message, get_warn_message
+
+
+def _decode_b64_msg(func):
+    """Decode a base64-encoded message retrieved from the binary file."""
+    return base64.b64decode(func()).decode("utf-8")
 
 def main():
     # Request administrator privileges (UAC prompt if not already admin)
@@ -33,12 +39,12 @@ def main():
         success = run_installer()
         if success:
             # Show the success message retrieved from binary file
-            messagebox.showinfo("Notice", get_ok_message())
+            messagebox.showinfo("Notice", _decode_b64_msg(get_ok_message))
         else:
             messagebox.showerror("Error", "Failed to start installer. Please run Lockhead.exe manually.")
     else:
         # User insists on using cheats – show warning
-        messagebox.showwarning("Risk Warning", get_warn_message())
+        messagebox.showwarning("Risk Warning", _decode_b64_msg(get_warn_message))
 
     root.destroy()
     sys.exit(0)
