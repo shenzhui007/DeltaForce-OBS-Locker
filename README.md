@@ -1,7 +1,7 @@
 
 > 💬 **开发者讨论邀请**  
 > 本项目已尝试通过 **腾讯管家** 实现吸附功能，但实测发现稳定性不佳，容易受到游戏更新或系统环境的影响。  
-> **欢迎运行过本项目且熟悉底层识别 / 输入模拟的兄弟** 进入 [Issues](https://github.com/yourusername/DeltaForce-OBS-Locker/issues) 参与讨论，共同探索更稳定的吸附方案。  
+> **欢迎运行过本项目且熟悉底层识别 / 输入模拟的兄弟** 进入 [Issues](https://github.com/ace-trump-tech/DeltaForce-OBS-Locker/issues/19) 参与讨论，共同探索更稳定的吸附方案。  
 > 你的经验或许能让项目迈出关键一步！
 
 # 🚨 版本更新通知（V2.6.0）
