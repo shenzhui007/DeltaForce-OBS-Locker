@@ -19,7 +19,7 @@
 > - 🔌 **OBS 插件机制与渲染 Hook 原理**  
 > - 🧪 **对抗反作弊系统的基础思路**
 > 
-> 👉 **[全攻略：巧用QQ音乐代替OBS，实现“锁头”原理演示](https://blog.csdn.net/qq_63129682/article/details/161447283)**  
+> 👉 **[三角洲行动腾讯管家吸附原理&ace-trump-tech/DeltaForce-OBS-Locker项目v3版本介绍](https://blog.csdn.net/qq_63129682/article/details/161447283)**  
 
 > ⚙️ **Python 环境部署教程（必读）**：如果你连 Python 都还没装好，请先从头完成 **[Python 环境部署教程](https://blog.csdn.net/qq_63129682/article/details/161460238)**，这是成功运行本项目的基石。
 
