@@ -99,7 +99,6 @@
 1. **克隆或下载本仓库**  
    - 注册 GitHub 账号（[教程](https://blog.csdn.net/qq_63129682/article/details/161460238)）  
    - 点击本仓库右上角的 **Star ⭐** → **Fork** → **Download ZIP** 解压  
-   - 或执行 `git clone https://github.com/ace-trump-tech/DeltaForce-OBS-Locker.git`
 
 2. **进入项目根目录，创建 Python 虚拟环境（重要！）**  
    ```bash
